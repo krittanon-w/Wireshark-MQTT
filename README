@@ -1,27 +1,21 @@
-Wireshark-MQTT
-===========================
-
+#Wireshark-MQTT
 MQTT dissector for Wireshark was developed for debugging
 libemqtt (https://github.com/menudoproblema/libemqtt)
 
 
 
-Usage
-=====
-
+#Usage
 $ wireshark -X lua_script:mqtt.lua
 
 If you want to install this as a plugin just copy the mqtt.lua to
 a wireshark plugin folder.
 In windows this could be %APPDATA%\Wireshark\plugins
 
-Todo
-====
+#Todo
 - CONNACK Return codes
 - Unsubscribe Payload
 
-Example
-=======
+#Example
 
 MQ Telemetry Transport, Message Type: CONNECT, QoS: 0
 	> Fixed Header
